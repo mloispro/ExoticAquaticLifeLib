@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "ArduinoCore", "ExoticAquaticLifeLib\ArduinoCore\ArduinoCore.cppproj", "{299AA2BC-EF60-4DF4-8BD3-BC1A142B8D25}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "ExoticAquaticLife", "ExoticAquaticLifeLib\ExoticAquaticLife\ExoticAquaticLife.cppproj", "{931F9AD4-9D38-4916-A51F-5C91FC19E70D}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "FeederController", "ExoticAquaticLifeLib\FeederController\FeederController.cppproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{295F1026-FACA-4810-A624-88C6D8A98BE7}"
+	ProjectSection(SolutionItems) = preProject
+		Deploy\ArduinoDeploy.cmd = Deploy\ArduinoDeploy.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewSketchInstructions", "NewSketchInstructions", "{1D7757BE-E44D-4D05-AEBA-EA59545870C1}"
+	ProjectSection(SolutionItems) = preProject
+		NewSketchInstructions\How To Create a New Sketch.docx = NewSketchInstructions\How To Create a New Sketch.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{299AA2BC-EF60-4DF4-8BD3-BC1A142B8D25}.Debug|AVR.ActiveCfg = Debug|AVR
+		{299AA2BC-EF60-4DF4-8BD3-BC1A142B8D25}.Debug|AVR.Build.0 = Debug|AVR
+		{299AA2BC-EF60-4DF4-8BD3-BC1A142B8D25}.Release|AVR.ActiveCfg = Release|AVR
+		{299AA2BC-EF60-4DF4-8BD3-BC1A142B8D25}.Release|AVR.Build.0 = Release|AVR
+		{931F9AD4-9D38-4916-A51F-5C91FC19E70D}.Debug|AVR.ActiveCfg = Debug|AVR
+		{931F9AD4-9D38-4916-A51F-5C91FC19E70D}.Debug|AVR.Build.0 = Debug|AVR
+		{931F9AD4-9D38-4916-A51F-5C91FC19E70D}.Release|AVR.ActiveCfg = Release|AVR
+		{931F9AD4-9D38-4916-A51F-5C91FC19E70D}.Release|AVR.Build.0 = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
