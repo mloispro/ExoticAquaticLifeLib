@@ -9,8 +9,10 @@ using namespace Utils;
 void setup() {
 	Serial.begin(115200);
 	while(!Serial);
-  // initialize digital pin 13 as an output.
-  pinMode(13, OUTPUT);
+	// initialize digital pin 13 as an output.
+	pinMode(13, OUTPUT);
+	SerialExt::Debug("F");
+
 }
 
 // the loop function runs over and over again forever

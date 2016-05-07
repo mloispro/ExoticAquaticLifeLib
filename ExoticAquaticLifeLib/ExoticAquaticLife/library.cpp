@@ -5,7 +5,10 @@
  * Author : lenovo
  */ 
 
+
 #include <avr/io.h>
+//#undef F
+//#define F(string_literal) ((const PROGMEM char *)(string_literal))
 #include "SimulateDebug.h"
 
 /* Replace with your library code */

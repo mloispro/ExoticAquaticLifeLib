@@ -40,14 +40,13 @@ namespace Utils {
 		template<typename T>
 		extern void Print(T&& text)
 		{
-			T t(text);
+		
 			Serial.println(text);
 		}
 		template<typename T, typename F>
 		extern void Print(T&& text, F&& val)
 		{
-			T t(text);
-			F f(val);
+
 			Serial.print(text);
 			Serial.println(val);
 			Serial.flush();
@@ -55,9 +54,7 @@ namespace Utils {
 		template<typename T, typename F, typename G>
 		extern void Print(T&& text, F&& val, G&& val2)
 		{
-			T t(text);
-			F f(val);
-			G g(val2);
+	
 			Serial.print(text);
 			Serial.print(val);
 			Serial.println(val2);
@@ -101,7 +98,7 @@ namespace Utils {
 		template<typename T>
 		extern void Debug(T&& text)
 		{
-			T t(text);
+
 			String msg = String("~ ") + text;
 			Serial.println(msg);
 		}
@@ -109,8 +106,6 @@ namespace Utils {
 		template<typename T, typename F>
 		extern void Debug(T&& text, F&& val)
 		{
-			T t(text);
-			F f(val);
 
 			//auto msg = "~ " + text + ": " + val;
 			String msg = String("~ ") + text;
@@ -121,7 +116,7 @@ namespace Utils {
 
 		
 		
-	};
+	}
 	namespace MegaPins{
 		const int PWM_2 = 2;
 		const int PWM_3 = 3;
@@ -162,7 +157,7 @@ namespace Utils {
 		const int SCL_21 = 21;
 
 		
-	};
+	}
 	namespace UnoPins{
 		const int PWM_3 = 3;
 		const int PWM_5 = 5;
@@ -196,8 +191,8 @@ namespace Utils {
 		const int D_12 = 12;
 		const int D_13 = 13;
 
-	};
-};
+	}
+}
 
 
 #endif
