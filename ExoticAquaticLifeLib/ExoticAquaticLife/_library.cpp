@@ -7,13 +7,17 @@
 
 
 #include <avr/io.h>
+
 //#undef F
 //#define F(string_literal) ((const PROGMEM char *)(string_literal))
-#include "SimulateDebug.h"
+//#include "_SimulateDebug.h"
+//#include "RTCExt.h"
+//using namespace Utils;
 
 /* Replace with your library code */
 int myfunc(void)
 {
-	return 0;
+	//RTCExt::Init();
+	//return 0;
 }
 

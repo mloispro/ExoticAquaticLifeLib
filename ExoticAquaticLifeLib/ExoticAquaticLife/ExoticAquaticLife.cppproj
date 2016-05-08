@@ -65,7 +65,7 @@
   <Value>ARDUINO_ARCH_AVR</Value>
   <Value>NDEBUG</Value>
 </ListValues></avrgcccpp.compiler.symbols.DefSymbols>
-  <avrgcccpp.compiler.directories.IncludePaths><ListValues><Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.0.98\include</Value><Value>../../ArduinoCore/include/variants/standard</Value><Value>../../ArduinoCore/include/core</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\Time</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\DS3232RTC</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM\src</Value><Value>C:\Program Files (x86)\Arduino\libraries\Servo\src</Value><Value>C:\Program Files (x86)\Arduino\libraries\Servo\src\avr</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\MemoryFree</Value><Value>../Library</Value><Value>../Library/SerialExt</Value><Value>../Library/MemoryExt</Value><Value>../Library/RTCExt</Value><Value>../Library/DigitalTime</Value><Value>../Library/LCDMenu</Value><Value>../Library/AnalogSwitch</Value></ListValues></avrgcccpp.compiler.directories.IncludePaths>
+  <avrgcccpp.compiler.directories.IncludePaths><ListValues><Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.0.98\include</Value><Value>../../ArduinoCore/include/variants/standard</Value><Value>../../ArduinoCore/include/core</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\Time</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\DS3232RTC</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM\src</Value><Value>C:\Program Files (x86)\Arduino\libraries\Servo\src</Value><Value>C:\Program Files (x86)\Arduino\libraries\Servo\src\avr</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\MemoryFree</Value></ListValues></avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.PackStructureMembers>True</avrgcccpp.compiler.optimization.PackStructureMembers>
   <avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>
   <avrgcccpp.compiler.warnings.AllWarnings>True</avrgcccpp.compiler.warnings.AllWarnings>
@@ -109,7 +109,7 @@
   <Value>ARDUINO_ARCH_AVR</Value>
   <Value>DEBUG</Value>
 </ListValues></avrgcccpp.compiler.symbols.DefSymbols>
-  <avrgcccpp.compiler.directories.IncludePaths><ListValues><Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.0.98\include</Value><Value>../../ArduinoCore/include/variants/standard</Value><Value>../../ArduinoCore/include/core</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\Time</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\DS3232RTC</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM\src</Value><Value>C:\Program Files (x86)\Arduino\libraries\Servo\src</Value><Value>C:\Program Files (x86)\Arduino\libraries\Servo\src\avr</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\MemoryFree</Value><Value>../Library</Value><Value>../Library/SerialExt</Value><Value>../Library/MemoryExt</Value><Value>../Library/RTCExt</Value><Value>../Library/DigitalTime</Value><Value>../Library/LCDMenu</Value><Value>../Library/AnalogSwitch</Value></ListValues></avrgcccpp.compiler.directories.IncludePaths>
+  <avrgcccpp.compiler.directories.IncludePaths><ListValues><Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.0.98\include</Value><Value>../../ArduinoCore/include/variants/standard</Value><Value>../../ArduinoCore/include/core</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\Time</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\DS3232RTC</Value><Value>C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM\src</Value><Value>C:\Program Files (x86)\Arduino\libraries\Servo\src</Value><Value>C:\Program Files (x86)\Arduino\libraries\Servo\src\avr</Value><Value>C:\Users\lenovo\Documents\Arduino\libraries\MemoryFree</Value></ListValues></avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.PackStructureMembers>True</avrgcccpp.compiler.optimization.PackStructureMembers>
   <avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>
   <avrgcccpp.compiler.warnings.AllWarnings>True</avrgcccpp.compiler.warnings.AllWarnings>
@@ -126,44 +126,6 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="library.cpp">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Library\AnalogSwitch\AnalogSwitch.cpp">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Library\AnalogSwitch\AnalogSwitch.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Library\DigitalTime\DigitalTime.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Library\LCDMenu\LCDMenu.cpp">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Library\LCDMenu\LCDMenu.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Library\MemoryExt\MemoryExt.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Library\RTCExt\RTCExt.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Library\SerialExt\SerialExt.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Library\ServoMotor\ServoMotor.cpp">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Library\ServoMotor\ServoMotor.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Library\SimulateDebug.h">
-      <SubType>compile</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ArduinoCore\ArduinoCore.cppproj">
       <Name>ArduinoCore</Name>
       <Project>{299aa2bc-ef60-4df4-8bd3-bc1a142b8d25}</Project>
@@ -171,15 +133,54 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Library" />
-    <Folder Include="Library\AnalogSwitch\" />
-    <Folder Include="Library\DigitalTime\" />
-    <Folder Include="Library\LCDMenu\" />
-    <Folder Include="Library\MemoryExt\" />
-    <Folder Include="Library\RTCExt\" />
-    <Folder Include="Library\SerialExt" />
-    <Folder Include="Library\ServoMotor\" />
-    <Folder Include="Arduino" />
+    <Compile Include="AnalogSwitch.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="AnalogSwitch.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="DigitalTime.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FishFeeder.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FishFeeder.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="LCDMenu.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="LCDMenu.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="MemoryExt.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RODoser.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RODoser.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="RTCExt.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="SerialExt.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ServoMotor.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ServoMotor.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="_library.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="_SimulateDebug.h">
+      <SubType>compile</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>
