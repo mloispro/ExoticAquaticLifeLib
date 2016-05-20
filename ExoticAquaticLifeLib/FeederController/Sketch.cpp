@@ -2,6 +2,7 @@
 #include <Arduino.h>
 
 #include <_SimulateDebug.h>
+#include <RTCExt.h>
 #include <SerialExt.h>
 using namespace Utils;
 
@@ -10,6 +11,7 @@ void setup() {
 	Serial.begin(115200);
 	while(!Serial);
 	// initialize digital pin 13 as an output.
+	RTCExt::Init();
 	pinMode(13, OUTPUT);
 	SerialExt::Debug("F");
 

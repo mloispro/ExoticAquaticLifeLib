@@ -182,10 +182,10 @@ bool ServoMotor::ShouldRunMotor(bool printToSerial)
 		NextRunMemory& nextRunMem = RTCExt::FindNextRunInfo(ServoType);
 		
 		SerialExt::Print("Time: ", RTCExt::GetRTCDateTimeString());
-		SerialExt::Print("Run Count Down: ", Time::GetShortDateTimeString(nextRunMem.CountDown));
-		SerialExt::Print("Next Run: ", Time::GetShortDateTimeString(nextRunMem.NextRun));
-		SerialExt::Print("Last Run: ", Time::GetShortDateTimeString(nextRunMem.LastRun));
-		SerialExt::Print("Run Every: ", Time::GetShortDateTimeString(nextRunMem.RunEvery));
+		SerialExt::Print("Run Count Down: ", TimeHelpers::GetShortDateTimeString(nextRunMem.CountDown));
+		SerialExt::Print("Next Run: ", TimeHelpers::GetShortDateTimeString(nextRunMem.NextRun));
+		SerialExt::Print("Last Run: ", TimeHelpers::GetShortDateTimeString(nextRunMem.LastRun));
+		SerialExt::Print("Run Every: ", TimeHelpers::GetShortDateTimeString(nextRunMem.RunEvery));
 	}
 
 	bool isSwitchOn = IsSwitchOn(isTimeToRun);

@@ -14,6 +14,11 @@ using namespace std;
 #include <TimeLib.h>
 #include <Time.h>
 #include <DS3232RTC.h>
+//#include "Time.h"
+//#include <Wire.h>
+//#include "Wire/utility/twi.h"
+//#include "Wire/utility/twi.c"
+//#include "DS3232RTC.h"
 
 //#include "EEPRomMem.h"
 //#include <EEPROM.h>
@@ -23,10 +28,11 @@ using namespace std;
 #include "DigitalTime.h"
 #include "LCDMenu.h"
 
+
 using namespace Utils;
 
 using namespace Models;
-using namespace Time;
+using namespace TimeHelpers;
 
 
 namespace Utils {
@@ -377,7 +383,7 @@ namespace Utils {
 		String GetRTCTimeString()
 		{
 			auto rtcTime = GetRTCTime();
-			auto digTime = Time::GetTimeString(rtcTime, true);
+			auto digTime = TimeHelpers::GetTimeString(rtcTime, true);
 			//auto timeString = Time::FormatDigialTime(digTime.Hours, digTime.Minutes, digTime.Seconds, true);
 			return digTime;
 		}
@@ -385,7 +391,7 @@ namespace Utils {
 		String GetRTCDateTimeString()
 		{
 			auto rtcTime = GetRTCTime();
-			auto timeString = Time::GetShortDateTimeString(rtcTime);
+			auto timeString = TimeHelpers::GetShortDateTimeString(rtcTime);
 			return timeString;
 		}
 

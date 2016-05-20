@@ -8,13 +8,17 @@
 #include <StandardCplusplus.h>
 #include <string>
 //#include <vector>
-using namespace std;
 
-//#include <Wire.h>
-#include <TimeLib.h>
+#include <Wire.h>
 #include <Time.h>
+//#include <TimeLib.h>
 
-#include "SerialExt.h"
+//#include "C:\Users\lenovo\Documents\Arduino\libraries\Time\Time.h"
+//#include "C:\Users\lenovo\Documents\Arduino\libraries\Time\TimeLib.h"
+//#include "Wire.h"
+//#include "SerialExt.h"
+
+using namespace std;
 
 namespace Models {
 
@@ -30,7 +34,7 @@ namespace Models {
 	};
 }
 
-namespace Time{
+namespace TimeHelpers{
 	using namespace Models;
 
 	template<typename H = int, typename M = int, typename S = int, typename I = bool>

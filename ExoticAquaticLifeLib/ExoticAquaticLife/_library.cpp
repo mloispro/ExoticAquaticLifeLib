@@ -18,6 +18,6 @@
 int myfunc(void)
 {
 	//RTCExt::Init();
-	//return 0;
+	return 0;
 }
 
